@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formación e Informática MurgIndalo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="Logo Murgindalo">
+        <div>
+            <h1>Murgindalo Formación y Software</h1>
+            <p>"Transformamos el aprendizaje, impulsamos tu futuro"</p>
+        </div>
+    </header>
+
+    <nav>
+        <a onclick="showSection('quienes')">Quiénes somos</a>
+        <div class="dropdown">
+            <a class="dropdown-toggle">Estrategia y análisis</a>
+            <div class="dropdown-content">
+                <a onclick="showSection('idea')">Nuestra idea</a>
+                <a onclick="showSection('entorno')">Análisis del entorno</a>
+                <a onclick="showSection('dafo')">Análisis DAFO</a>
+                <a onclick="showSection('marketing')">Marketing estratégico</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropdown-toggle">Políticas empresariales</a>
+            <div class="dropdown-content">
+                <a onclick="showSection('servicios')">Política de servicios</a>
+                <a onclick="showSection('precios')">Política de precios</a>
+                <a onclick="showSection('distribucion')">Política de distribución</a>
+            </div>
+        </div>
+        <a onclick="showSection('resumen')">Resumen ejecutivo</a>
+        <div class="dropdown">
+            <a class="dropdown-toggle">Operaciones y equipo</a>
+            <div class="dropdown-content">
+                <a onclick="showSection('localizacion')">Localización</a>
+                <a onclick="showSection('operaciones')">Plan de operaciones</a>
+                <a onclick="showSection('equipo')">Equipo humano</a>
+                <a onclick="showSection('prevencion')">Prevención de riesgos laborales</a>
+            </div>
+        </div>
+        <a onclick="showSection('evaluacion')">Nos evaluamos</a>
+    </nav>
+
+    <main>
+        <section id="quienes" class="active">
+            <h2 class="borde-texto">Quiénes somos</h2>
+            <div style="border-radius: 20px;">
+                <p class="cristal"> Nuestra empresa de servicios informáticos se especializa en tres áreas clave: la
+                    formación de trabajadores a través de plataformas de aprendizaje digital personalizadas, el
+                    desarrollo de
+                    software a medida para optimizar procesos empresariales, y el mantenimiento informático para
+                    garantizar el buen
+                    funcionamiento de infraestructuras tecnológicas.
+
+                </p>
+                <p class="cristal">
+                    Ofrecemos soluciones flexibles y eficientes que
+                    impulsan la productividad, mejoran la innovación y aseguran la continuidad operativa de las
+                    organizaciones.</p>
+            </div>
+        </section>
+
+        <section id="idea">
+            <h2 class="borde-texto">Nuestra idea</h2>
+            <div class="card">
+                <h3>Ramas de servicios principales</h3>
+                <div id="ramas">
+                    <p class="concepto">Creación de plataformas de aprendizaje digital personalizadas</p>
+                    <p>Aplicaciones adaptadas a las necesidades específicas de cada empresa para capacitar a empleados
+                        de manera remota y flexible.</p>
+                    <p class="concepto">Desarrollo de software a medida</p>
+                    <p>Diseñamos e implementamos soluciones informáticas personalizadas para optimizar tareas y procesos
+                        empresariales únicos.</p>
+                    <p class="concepto">Mantenimiento informático</p>
+                    <p>Garantizamos el buen funcionamiento de los sistemas tecnológicos, evitando fallos y mejorando la
+                        seguridad.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Promotor</h3>
+                <div id="promotor">
+
+                    <p class="concepto">Lucas Sánchez XXXXXX.</p>
+                    <p>04700 El Ejido (ALMERÍA)</p>
+                    <p class="concepto">Contacto</p>
+                    <p>(+34) 637 AA 9I 07 // lucazzanchezacota@gmail.com </p>
+                    <p class="concepto">Descripción:</p>
+                    <p>Desde muy joven he tenido espíritu emprendedor y tengo experiencia en gestión
+                        empresarial e informática. Soy técnico superior en sistemas de telecomunicaciones e
+                        informáticos, con sólida experiencia en proyectos de formación y desarrollo tecnológico.</p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Cultura empresarial</h3>
+                <div id="cultura">
+                    <p class="concepto">Responsabilidad social</p>
+                    <p>Nuestra empresa se centra en la innovación, la colaboración y el aprendizaje continuo. Fomentamos
+                        un entorno inclusivo que valora la diversidad y promueve el crecimiento profesional.
+
+                    </p>
+                    <p>Diseñamos soluciones accesibles y sostenibles para democratizar el conocimiento y reducir brechas
+                        formativas,
+                        impactando positivamente en la sociedad.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="entorno">
+            <!-- Factores del Entorno General -->
+            <h2 class="borde-texto">Factores del Entorno General</h2>
+
+            <!-- Factores Económicos -->
+            <div>
+                <h3>Factores Económicos</h3>
+                <p><strong>Crecimiento económico:</strong> El entorno económico en crecimiento suele generar un
+                    aumento en la demanda de servicios informáticos.</p>
+                <p><strong>Demanda de servicios tecnológicos:</strong> La digitalización y la transformación
+                    digital aumentan la demanda de servicios informáticos.</p>
+                <p><strong>Competencia y precios en el mercado:</strong> En un mercado competitivo, los precios
+                    bajos pueden reducir los márgenes de beneficio.</p>
+                <p><strong>Acceso a financiamiento e inversión:</strong> La disponibilidad de crédito y la
+                    inversión externa facilita el crecimiento y la innovación.</p>
+                <p><strong>Tendencias en tecnología y costos de innovación:</strong> Los avances tecnológicos
+                    crean oportunidades, pero también implican altos costos de I+D.</p>
+
+            </div>
+
+            <!-- Factores Socioculturales -->
+            <div>
+                <h3>Factores Socioculturales</h3>
+                <p><strong>Adopción de la tecnología:</strong> La adopción tecnológica influye en la demanda de
+                    servicios informáticos.</p>
+                <p><strong>Digitalización en el lugar de trabajo:</strong> La digitalización empresarial
+                    aumenta la necesidad de formación y desarrollo tecnológico.</p>
+                <p><strong>Preferencias por el trabajo remoto:</strong> El trabajo remoto impulsó la demanda de
+                    soluciones tecnológicas para mantener la productividad.</p>
+                <p><strong>Cambio en las expectativas de los empleados:</strong> Los empleados demandan
+                    herramientas tecnológicas que aumenten su productividad.</p>
+                <p><strong>Educación tecnológica y capacitación continua:</strong> Las empresas deben invertir
+                    en la capacitación de su personal para mantenerse competitivas.</p>
+            </div>
+
+            <!-- Factores Políticos y Legales -->
+            <div>
+                <h3>Factores Políticos y Legales</h3>
+                <p><strong>Políticas de apoyo a la tecnología y digitalización:</strong> Los gobiernos
+                    promueven políticas para incentivar la digitalización y la innovación.</p>
+                <p><strong>Regulaciones sobre ciberseguridad y privacidad de datos:</strong> Las legislaciones
+                    como el GDPR exigen medidas de seguridad y privacidad.</p>
+                <p><strong>Normativas sobre comercio electrónico y software:</strong> Las leyes sobre derechos
+                    de autor y licencias afectan a las empresas de servicios informáticos.</p>
+                <p><strong>Programas de capacitación y formación gubernamentales:</strong> Iniciativas
+                    gubernamentales pueden aumentar la demanda de formación tecnológica.</p>
+                <p><strong>Políticas de contratación pública:</strong> Los gobiernos son grandes consumidores
+                    de servicios tecnológicos.</p>
+
+            </div>
+
+            <!-- Factores Tecnológicos -->
+            <div>
+                <h3>Factores Tecnológicos</h3>
+
+                <p><strong>Avances tecnológicos constantes:</strong> La rapidez en el surgimiento de nuevas
+                    tecnologías obliga a las empresas a innovar constantemente.</p>
+                <p><strong>Transformación digital de las empresas:</strong> La digitalización de procesos
+                    genera una mayor demanda de servicios tecnológicos.</p>
+                <p><strong>Crecimiento de la computación en la nube:</strong> El uso de la nube transforma la
+                    forma en que las empresas gestionan sus datos y procesos.</p>
+                <p><strong>Ciberseguridad:</strong> La seguridad informática es crucial debido a las crecientes
+                    amenazas cibernéticas.</p>
+                <p><strong>Acceso a herramientas de desarrollo de software:</strong> Herramientas avanzadas
+                    aumentan la productividad y la calidad en los proyectos tecnológicos.</p>
+
+            </div>
+
+            <!-- Factores Tecnológicos en E-learning y Desarrollo de Software -->
+            <div>
+                <h3>Factores Tecnológicos en E-learning y Desarrollo de Software</h3>
+                <p><strong>Accesibilidad e inclusión:</strong> Las plataformas deben ser accesibles para
+                    personas con discapacidades.</p>
+                <p><strong>Inteligencia artificial (IA):</strong> La IA permite personalizar el aprendizaje y
+                    adaptarlo a las necesidades individuales.</p>
+                <p><strong>Plataformas de gestión del aprendizaje (LMS):</strong> Plataformas como Moodle y
+                    Blackboard facilitan la gestión de cursos y la evaluación.</p>
+                <p><strong>Computación en la nube:</strong> El desarrollo de software en la nube permite
+                    soluciones escalables y de alta disponibilidad.</p>
+                <p><strong>Seguridad y privacidad:</strong> La ciberseguridad es fundamental para proteger los
+                    datos y la privacidad de los usuarios.</p>
+
+            </div>
+
+            <!-- Factores del Entorno Específico -->
+            <h2 class="borde-texto">Factores del Entorno Específico</h2>
+
+            <!-- La Competencia -->
+            <div>
+                <h3>La Competencia</h3>
+                <p><strong>Intensidad de la competencia:</strong> El mercado está saturado con empresas
+                    ofreciendo servicios similares.</p>
+                <p><strong>Barreras de entrada:</strong> Las barreras de entrada son bajas, lo que favorece la
+                    aparición de nuevos competidores.</p>
+                <p><strong>Diferenciación y valor añadido:</strong> Las empresas que integran tecnologías
+                    innovadoras pueden diferenciarse.</p>
+                <p><strong>Competencia indirecta:</strong> Herramientas como plataformas de autoayuda y
+                    soluciones prediseñadas representan una competencia indirecta.</p>
+                <p><strong>Factores de éxito frente a la competencia:</strong> Tener personal altamente
+                    cualificado es clave para el éxito.</p>
+            </div>
+
+            <!-- Los Clientes -->
+            <div>
+                <h3>Los Clientes</h3>
+                <p><strong>Segmentación del mercado:</strong> Empresas (B2B), Individuos (B2C), y el Sector
+                    Educativo.</p>
+                <p><strong>Necesidades y expectativas de los clientes:</strong> Personalización, fiabilidad,
+                    soporte, transformación digital y seguridad.</p>
+                <p><strong>Relación a largo plazo y fidelización:</strong> Contratos de mantenimiento y
+                    renovación de licencias fomentan la fidelización.</p>
+            </div>
+
+            <!-- Los Proveedores o Intermediarios -->
+            <div>
+                <h3>Los Proveedores o Intermediarios</h3>
+                <p><strong>Tipos de proveedores:</strong> Proveedores de hardware, software, nube y contenido
+                    digital.</p>
+                <p><strong>Dependencia de los proveedores:</strong> Riesgos derivados de la dependencia de
+                    proveedores internacionales.</p>
+                <p><strong>Impacto de los intermediarios:</strong> Las plataformas de terceros pueden generar
+                    costos adicionales.</p>
+                <p><strong>Retos relacionados con los proveedores:</strong> Incrementos de costos, dependencia
+                    tecnológica y actualizaciones constantes.</p>
+            </div>
+
+            <!-- Productos Sustitutivos -->
+            <div>
+                <h3>Productos Sustitutivos</h3>
+                <p><strong>Competencia tecnológica:</strong> Plataformas e-learning gratuitas o de bajo costo,
+                    y software de automatización.</p>
+                <p><strong>Competencia en el mercado de contenidos educativos:</strong> MOOC como Coursera,
+                    Udemy y LinkedIn Learning.</p>
+                <p><strong>Impacto de los productos sustitutivos:</strong> Alta amenaza de productos
+                    sustitutivos, siendo la diferenciación clave.</p>
+            </div>
+        </section>
+
+        <section id="dafo">
+            <h2 class="borde-texto">Análisis DAFO</h2>
+            <div id="cubo">
+                <article id="amenazas">
+                    <h3>AMENAZAS</h3>
+                    <p>Mercado altamente competitivo</p>
+                    <p>La tecnología evoluciona rápidamente</p>
+                    <p>Riesgos de seguridad cibernética</p>
+                    <p>Existencia de productos sustitutivos</p>
+                    <p>Cambios regulatorios</p>
+                </article>
+                <article id="debilidades">
+                    <h3>DEBILIDADES</h3>
+                    <p>Dependecia tecnológica: lenguajes, frameworks, etc... </p>
+                    <p>Costes elevados de personal especializado</p>
+                    <p>Escalabilidad limitada en temas formativos</p>
+                    <p>Falta de visibilidad comercial</p>
+                    <p>Dependencia de contratos a largo plazo</p>
+                </article>
+                <article id="oportunidades">
+                    <h3>OPORTUNIDADES</h3>
+                    <p>El ámbito de nuestros servicios es un mercado creciente</p>
+                    <p>Existe una alta inversión en transformación digital</p>
+                    <p>Acceso al mercado mundial a través de Internet</p>
+                    <p>Existencia de subvenciones para los clientes</p>
+                    <p>Creación de una red de coworking</p>
+                </article>
+                <article id="fortalezas">
+                    <h3>FORTALEZAS</h3>
+                    <p>Especialización en servicios con alto valor añadido</p>
+                    <p>Adaptabilidad y flexibilidad en servicios a medida</p>
+                    <p>Innovación en el e-learning</p>
+                    <p>Modelo de negocio muy escalable</p>
+                    <p>Alta tendencia a la fidelización clientelar</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="marketing">
+            <article id="clientes">
+                <h2 class="borde-texto">Perfil de nuestros clientes</h2>
+
+                <div>
+                    <h3>Segmentación demográfica</h3>
+                    <p>Personas de todos los géneros con edad de trabajar o estudiar.</p>
+                    <p>Con cualquier nivel educativo, principalmente estudiantes, profesionales y empresas.</p>
+                </div>
+                <div>
+                    <h3>Segmentación socioeconómica</h3>
+                    <p>Cualquiera, especialmente pymes y personas con intereses formativos.</p>
+                </div>
+                <div>
+                    <h3>Segmentación psicográfica</h3>
+                    <p>Interés por la formación en línea, la tecnología y el desarrollo profesional.</p>
+                    <p>Búsqueda de innovación y flexibilidad en soluciones formativas y software empresarial.</p>
+                </div>
+            </article>
+
+            <article id="ventajas">
+                <h2 class="borde-texto">Ventaja diferencial respecto a la competencia</h2>
+
+                <div>
+                    <h3>Personalización</h3>
+                    <p>Ofrecer cursos y software diseñados a medida según las necesidades de los clientes (empresas o
+                        individuos).</p>
+                    <p>Soluciones adaptadas para diferentes niveles de conocimiento y sectores de la industria.</p>
+                </div>
+                <div>
+                    <h3>Innovación tecnológica</h3>
+                    <p>Implementación de inteligencia artificial en las plataformas de aprendizaje para mejorar la
+                        experiencia del usuario.</p>
+                    <p>Desarrollo de software con interfaces intuitivas y tecnología punta.</p>
+                </div>
+                <div>
+                    <h3>Atención al cliente</h3>
+                    <p>Soporte técnico en tiempo real y seguimiento continuo.</p>
+                    <p>Posibilidad de servicios presenciales en la provincia de Almería y alrededores.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="servicios">
+            <div id="lista_servicios">
+                <h2 class="borde-texto">Nuestros servicios:</h2>
+                <div id="contenedor_servicios">
+                    <div>
+                        <p>Plataforma de e-learning personalizada (SaaS)</p>
+                        <p>Desarrollo y mantenimiento de una plataforma en línea con cursos interactivos, módulos
+                            personalizables y funcionalidades avanzadas como gamificación, seguimiento de progreso y
+                            certificaciones digitales.</p>
+                    </div>
+                    <div>
+                        <p>Desarrollo de software a medida</p>
+                        <p>Creación de soluciones personalizadas para empresas, como sistemas de gestión, aplicaciones
+                            móviles, plataformas web o software de automatización.</p>
+                    </div>
+                    <div>
+                        <p>Capacitación tecnológica por suscripción</p>
+                        <p>Acceso mensual o anual a una biblioteca de cursos en línea relacionados con programación,
+                            inteligencia artificial, ciberseguridad, diseño web, entre otros temas tecnológicos.</p>
+                    </div>
+                    <div>
+                        <p>Servicios de mantenimiento y soporte técnico:</p>
+                        <p>Suscripción mensual para monitoreo, mantenimiento y actualizaciones de software, servidores y
+                            sistemas informáticos de clientes empresariales.</p>
+                    </div>
+                    <div>
+                        <p>Consultoría en transformación digital:</p>
+                        <p>Servicios por proyecto o suscripción para ayudar a empresas a digitalizar procesos, optimizar
+                            operaciones y adoptar nuevas tecnologías.</p>
+                    </div>
+                    <div>
+                        <p>Eventos y talleres en vivo (online o presenciales):</p>
+                        <p>Organización de seminarios web, talleres prácticos y bootcamps tecnológicos en temas de alta
+                            demanda como programación, machine learning o ciberseguridad, con pagos por evento o
+                            suscripción.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="logo_nombre">
+                <img src="imagenes/logo.png" alt="Logo Murgindalo">
+                <p class="borde-texto">Murgindalo Formación y Software SLU</p>
+            </div>
+
+            <div id="garantia">
+                <h2 class="borde-texto">Políticas de Producto: Garantías y Servicio Posventa</h2>
+                <div>
+                    <h3>Garantía</h3>
+                    <p>Garantía de Producto</p>
+                    <p>Todos nuestros productos de software y plataformas de e-learning cuentan con una garantía
+                        de funcionamiento durante un período inicial de 90 días a partir de la fecha de entrega.
+                        Esta garantía cubre cualquier defecto de programación, mal funcionamiento o problemas
+                        técnicos en la plataforma o el software.</p>
+                    <p>Actualizaciones</p>
+                    <p>Durante el período de garantía, los usuarios tendrán acceso a todas las actualizaciones y
+                        parches del software que sean necesarias para mantener la operatividad del producto.</p>
+                </div>
+
+                <div>
+                    <h3>Servicio Posventa</h3>
+                    <p>Soporte técnico</p>
+                    <p>Ofrecemos soporte técnico a través de múltiples canales (teléfono, correo electrónico, etc…)
+                        para resolver dudas y problemas técnicos. El servicio está disponible en horario comercial
+                        de 10 a 17 de lunes a jueves y de 10 a 15 los viernes.</p>
+                    <p>Capacitación adicional</p>
+                    <p>Se proporcionan sesiones de formación continuada para garantizar que los usuarios comprendan
+                        completamente las funcionalidades del producto y maximicen su potencial.</p>
+                    <p>Consultoría personalizada</p>
+                    <p>Ofrecemos consultoría para adaptaciones específicas de la plataforma o el software.</p>
+                </div>
+
+                <div id="mejora_ciclo">
+                    <div id="mejor">
+                        <div id="mejora">
+                            <h2>Evaluación y Mejora Periódica del Servicio</h2>
+                            <div>
+                                <h3>Evaluación continua</h3>
+                                <p>Análisis de retroalimentación del usuario.</p>
+                                <p>Métricas de desempeño.</p>
+                                <p>Auditoría de calidad.</p>
+                            </div>
+                            <div>
+                                <h3>Mejoras continuas</h3>
+                                <p>Actualizaciones regulares.</p>
+                                <p>Innovación y nuevas funcionalidades.</p>
+                                <p>Evaluación de competencias.</p>
+                            </div>
+                        </div>
+
+                        <div id="ciclo">
+                            <h2> Fase del ciclo de vida del producto</h2>
+                            <div>
+                                <h3>Crecimiento</h3>
+                                <p>Los servicios que prestamos están relacionados con el ámbito de la formación y la
+                                    tecnología,
+                                    ambos en fuerte crecimiento. Nos esforzamos para mejorar la escalabilidad, la
+                                    estabilidad y la
+                                    experiencia del usuario. En este punto, se priorizarán los servicios de soporte y la
+                                    personalización para clientes clave. Se incrementará la base de usuarios, lo cual
+                                    implicará
+                                    mayor énfasis en la optimización de procesos y la expansión de servicios.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="precios">
+            <h2 class="borde-texto">Precios</h2>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Tipo</th>
+                        <th>Precio</th>
+                        <th>Características</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Plataforma de e-learning personalizada</td>
+                        <td>Suscripción mensual/anual</td>
+                        <td>Desde 299€/mes</td>
+                        <td>Incluye hosting, 5 cursos iniciales y soporte. Personalización avanzada a partir de
+                            899€/mes.</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de software a medida</td>
+                        <td>Proyecto inicial + soporte por suscripción</td>
+                        <td>Desde 1799€/proyecto</td>
+                        <td>Soporte mensual básico obligatorio 39€, extendido opcional desde 199€. Actualizaciones
+                            escalables según necesidades.</td>
+                    </tr>
+                    <tr>
+                        <td>Capacitación tecnológica por suscripción</td>
+                        <td>Suscripción mensual/anual</td>
+                        <td>Desde 25€/mes por usuario</td>
+                        <td>Acceso ilimitado a cursos. Planes para empresas desde 399€/mes para hasta 50 usuarios.</td>
+                    </tr>
+                    <tr>
+                        <td>Servicios de mantenimiento y soporte técnico</td>
+                        <td>Suscripción mensual</td>
+                        <td>Desde 99€/mes</td>
+                        <td>Cobertura básica para servidores y sistemas. Plan avanzado desde 299€/mes con monitoreo
+                            24/7.</td>
+                    </tr>
+                    <tr>
+                        <td>Consultoría en transformación digital</td>
+                        <td>Por horas o paquete mensual</td>
+                        <td>Desde 149€/hora</td>
+                        <td>Paquetes desde 999€/mes (8 horas incluidas). Planes más amplios disponibles.</td>
+                    </tr>
+                    <tr>
+                        <td>Eventos y talleres en vivo</td>
+                        <td>Pago por evento o suscripción a talleres</td>
+                        <td>Desde 49€/participante evento mínimo 6 participantes</td>
+                        <td>Suscripción mensual desde 499€ para empresas con hasta 12 participantes por evento. Talleres
+                            avanzados desde 99€/participante.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="consideraciones card-consideraciones">
+                <h3>Consideraciones</h3>
+                <div>
+                    <p>
+                        <strong>Escalabilidad:</strong> Los precios base pueden ajustarse según el alcance o tamaño del
+                        cliente.
+                    </p>
+                    <p>
+                        <strong>Descuentos por volumen:</strong> Se pueden ofrecer tarifas reducidas para empresas o
+                        suscripciones de larga duración (anual o superior).
+                    </p>
+                    <p>
+                        <strong>Extras personalizados:</strong> Opciones como soporte extendido, integración con
+                        sistemas preexistentes o formación personalizada pueden generar ingresos adicionales.
+                    </p>
+                    <p>
+                        <strong>Progresión de precios por la complejidad de proyectos o formación:</strong> La
+                        complejidad
+                        técnica de los servicios y la personalización influyen en el tiempo de desarrollo y
+                        mantenimiento.
+                    </p>
+                    <p>
+                        <strong>Relación precio de venta coste de producción:</strong> En muchos servicios es una
+                        relación
+                        muy baja, una vez implementado el código no cuesta nada replicarlo, en otros casos todo depende
+                        de las previsiones de ventas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="distribucion">
+            <h2 class="borde-texto">Política de distribución.</h2>
+
+            <h3><span>Venta directa en línea (Web propia y marketing digital)</span></h3>
+            <p>Tener un sitio web propio es crucial. Ofrecemos nuestros productos de e-learning y software directamente
+                en línea,
+                utilizando <strong>SEO</strong>, <strong>PPC</strong> (publicidad de pago por clic), y <strong>email
+                    marketing</strong> para atraer tráfico, convertir usuarios y retenerlos, generando una gran base
+                de clientes directos.</p>
+
+            <h3><span>Ventajas</span></h3>
+            <p>
+                Control total sobre la marca, la comunicación y el proceso de ventas.
+                Mayor margen de beneficio, ya que no dependemos de terceros.
+                Oportunidad para crear una comunidad de usuarios leales y obtener retroalimentación directa.
+            </p>
+
+
+
+            <h3><span>Alianzas estratégicas y distribuidores corporativos</span></h3>
+            <p>Colaboramos con empresas que ya operan en el sector de la educación, organizaciones corporativas o
+                instituciones académicas que pueden distribuir nuestro software de e-learning como parte de sus propios
+                programas o soluciones. Establecemos acuerdos de distribución con proveedores de tecnología educativa,
+                ya que también es una vía efectiva.</p>
+
+            <h3><span>Ventajas</span></h3>
+            <p>
+                Acceso a un mercado corporativo o institucional que puede tener mayores presupuestos.
+                Relación de largo plazo con instituciones educativas o empresas.
+                Mayor legitimidad y confianza por parte de los clientes al estar asociados con instituciones de
+                renombre.
+            </p>
+        </section>
+
+        <section id="comunicacion">
+            <h2 class="borde-texto">Política de Comunicación</h2>
+
+            <div class="eslogan">
+                <div>
+                    <h3>¿Cómo conocerán tus clientes tu producto?</h3>
+                    <p>Nuestros clientes conocerán nuestros productos a través de estrategias
+                        de comunicación multicanal, enfocándonos en medios digitales y presenciales.
+                        Utilizaremos campañas dirigidas en redes sociales, marketing por email,
+                        anuncios segmentados en motores de búsqueda y plataformas de contenido,
+                        además de colaboraciones con empresas e instituciones educativas para
+                        potenciar nuestro alcance.</p>
+                </div>
+                <div>
+                    <h3>Eslogan publicitario</h3>
+                    <p id="eslogan-p">"Transformamos el aprendizaje, impulsamos tu futuro."</p>
+                </div>
+            </div>
+
+            <h2>Técnicas de Comunicación y Promoción</h2>
+            <div class="promocion">
+                <div class="medios">
+                    <h3>Redes Sociales:</h3>
+                    <p> Publicaciones educativas, demostraciones de productos,
+                        testimonios de clientes, concursos interactivos y transmisiones en vivo en plataformas como
+                        Facebook, Instagram, LinkedIn y Twitter.</p>
+
+                </div>
+
+                <div class="medios">
+                    <h3>Publicidad en Motores de Búsqueda (SEM):</h3>
+                    <p>Campañas en Google Ads con
+                        palabras clave relacionadas con e-learning y desarrollo de software educativo.</p>
+                </div>
+
+                <div class="medios">
+                    <h3>YouTube:</h3>
+                    <p>Creación de tutoriales, casos de éxito y webinars que muestren el
+                        valor de nuestros productos.</p>
+                </div>
+
+                <div class="medios">
+                    <h3>Email Marketing:</h3>
+                    <p>Envío de boletines informativos, promociones exclusivas y
+                        contenido de valor.</p>
+                </div>
+
+                <div class="medios">
+                    <h3>Página web</h3>
+                    <p>Diseño optimizado para SEO y experiencia de usuario.</p>
+                    <p>Sección de blog con contenido educativo y técnico.</p>
+                    <p>Área de demostraciones gratuitas para que los clientes puedan probar nuestros productos.</p>
+                    <p>Integración de chat en vivo para resolver dudas al instante.</p>
+                </div>
+
+                <div class="medios">
+                    <h3>Promociones de ventas</h3>
+                    <p>Ofrecer descuentos iniciales para nuevos usuarios.</p>
+                    <p>Planes de precios flexibles (suscripciones mensuales/anuales).</p>
+                    <p>Período de prueba gratuito de 14 días para cursos o software.</p>
+                </div>
+
+                <div class="medios">
+                    <h3>Técnicas de merchandising</h3>
+                    <p>Creación de material promocional como guías digitales gratuitas, e-books o plantillas
+                        relacionadas con el aprendizaje y el software.</p>
+                    <p>Distribución de contenido visual atractivo (infografías y videos) en redes sociales y
+                        eventos.</p>
+                </div>
+
+                <div class="medios">
+                    <h3>Marketing experiencial</h3>
+                    <p> Talleres y eventos virtuales donde los clientes puedan interactuar con nuestras plataformas en
+                        tiempo real.</p>
+                </div>
+
+                <div class="medios">
+
+                    <h3>Marketing relacional</h3>
+                    <p> Comunicación constante con los usuarios a través de encuestas de satisfacción, programas de
+                        fidelización y atención personalizada.</p>
+                </div>
+
+                <div class="medios">
+                    <h3>Móvil</h3>
+                    <p>Desarrollo de una aplicación móvil para acceder a los cursos y software.</p>
+                    <p>Envío de notificaciones push con recordatorios, promociones y actualizaciones.</p>
+                </div>
+            </div>
+
+            <h2>Calendario de Campañas de Marketing</h2>
+            <table class="tabla-marketing">
+                <thead>
+                    <tr>
+                        <th>Mes</th>
+                        <th>Campaña</th>
+                        <th>Objetivo</th>
+                        <th>Presupuesto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Enero</td>
+                        <td>Lanzamiento del producto (pruebas gratuitas)</td>
+                        <td>Captar primeros clientes</td>
+                        <td>5000€</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                        <td>Campaña en redes sociales (Facebook/Instagram)</td>
+                        <td>Aumentar la visibilidad y engagement</td>
+                        <td>3000€</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo</td>
+                        <td>Promociones de ventas</td>
+                        <td>Incrementar conversiones</td>
+                        <td>2500€</td>
+                    </tr>
+                    <tr>
+                        <td>Abril</td>
+                        <td>Webinar en YouTube</td>
+                        <td>Mostrar valor del producto y ganar confianza</td>
+                        <td>1500€</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo</td>
+                        <td>Email marketing con contenido educativo</td>
+                        <td>Fidelización de clientes</td>
+                        <td>1000€</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <div class="card-evaluacion">
+                <h3>Evaluación y control</h3>
+                <div>
+                    <p>
+                        <strong>Medición de Resultados</strong> Analizamos métricas clave como el alcance, la tasa de
+                        conversión y el ROI de cada campaña utilizando herramientas como Google Analytics, Meta Business
+                        Suite y Mailchimp.
+                    </p>
+                    <p>
+                        <strong>Control de Ejecución:</strong> Verificamos que cada acción se realice según el
+                        cronograma
+                        establecido. Revisión mensual para identificar mejoras o ajustes necesarios.
+                    </p>
+                    <p>
+                        <strong>Modificaciones:</strong> Implementamos cambios en función de los resultados obtenidos,
+                        como
+                        optimizar campañas de bajo rendimiento o ajustar presupuestos hacia estrategias más efectivas.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="resumen">
+            <h2 class="borde-texto">Resumen ejecutivo</h2>
+            <div>
+
+                <div>
+                    <p class="borde-texto">innovación y desarrollo</p>
+                </div>
+                <p>Ofrecemos soluciones innovadoras en <strong>e-learning, programación y sistemas</strong>. Nuestro
+                    objetivo es impulsar la transformación digital de empresas y personas, combinando tecnología de
+                    vanguardia con un <strong>enfoque educativo personalizado.</strong></p>
+                <p>Formamos un equipo multidisciplinar y comprometido, cuya experiencia y pasión nos permiten diseñar
+                    plataformas de aprendizaje eficaces, desarrollar software a medida y garantizar <strong>sistemas
+                        tecnológicos seguros y eficientes</strong>.</p>
+                <p>Nuestra principal <strong>ventaja competitiva es la capacidad de adaptarnos</strong> a las
+                    necesidades específicas de nuestros clientes, ofreciendo servicios personalizados que generan
+                    resultados tangibles. Creemos firmemente en la <strong>sostenibilidad y rentabilidad</strong> de
+                    nuestro modelo de negocio, respaldado por una estrategia de financiación sólida y bien estructurada.
+                </p>
+                <p>Estamos convencidos de que, con nuestro enfoque dinámico y nuestra visión innovadora, podemos
+                    satisfacer las demandas del mercado y contribuir activamente a construir un <strong>futuro más
+                        conectado y eficiente</strong>.</p>
+            </div>
+        </section>
+
+        <section id="localizacion">
+            <h2 class="borde-texto">Localización</h2>
+            <p>Nuestras instalaciones se encuentran en <strong>El Ejido (Almería)</strong>. El local está
+                estratégicamente ubicado a tan solo <strong>2'' del centro y 1'' de la estación de
+                    autobuses</strong>. Tiene muy buena accesibilidad, la cual facilita el acceso para clientes y
+                empleados. Además, la ubicación se encuentra en una zona con un alto potencial de crecimiento
+                económico, lo que asegura una proyección favorable a largo plazo para el negocio. Nos encontramos
+                en <strong>Av de la Luz esquina con C/Julio César</strong>.</p>
+
+
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15202.157174605478!2d-2.8186291250517868!3d36.77392904246625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDQ2JzMwLjQiTiAywrA0OCczMS40Ilc!5e0!3m2!1ses!2ses!4v1736871763861!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </section>
+
+        <section id="operaciones">
+            <h2 class="borde-texto">Plan de Operaciones</h2>
+            <div>
+                <div class="card-operaciones">
+                    <div style="background-image: url('imagenes/infraestructura.jpg')">
+                        <h2>Infraestructura y Recursos Materiales</h2>
+                    </div>
+                    <div>
+                        <h3>Materias primas y mercancías</h3>
+                        <p>Plataformas LMS, herramientas de creación de contenido, IDEs, componentes de hardware.</p>
+                        <h3>Almacenamiento e inventario</h3>
+                        <p>Espacios físicos para componentes y herramientas, servidores en la nube.</p>
+                        <h3>Digitalización e infraestructura de TI</h3>
+                        <p> Hardware como servidores, equipos de
+                            respaldo y routers. Software como herramientas de productividad y seguridad informática.
+                            Comunicaciones con conexión a internet redundante y plataformas VoIP.</p>
+                        <h3>Apariencia interna del local</h3>
+                        <p> Diseño moderno, mobiliario ergonómico y funcional.</p>
+
+                    </div>
+                </div>
+
+                <div class="card-operaciones">
+                    <div style="background-image: url('imagenes/proveedores.jpg')">
+                        <h2>Gestión de Proveedores y Colaboradores Externos</h2>
+                    </div>
+                    <div>
+                        <h3>Proveedores</h3>
+                        <p>Software de Microsoft, AWS, Google y servicios Cloud. Hardware de distribuidores locales.</p>
+                        <h3>Colaboradores externos</h3>
+                        <p>Diseñadores gráficos y productores audiovisuales para e-learning, especialistas freelance
+                            en tecnologías específicas y consultores en ciberseguridad.</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        id="Presentation-Audience--Streamline-Ultimate" height="24" width="24">
+                        <desc>Presentation Audience Streamline Icon: https://streamlinehq.com</desc>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M4.5 11.25h15"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="m7.8 14.25 -0.3 -3h9l-0.3 3" stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.375 3.375c0 0.69619 0.27656 1.36387 0.7688 1.85616C10.6361 5.72344 11.3038 6 12 6c0.6962 0 1.3639 -0.27656 1.8562 -0.76884 0.4922 -0.49229 0.7688 -1.15997 0.7688 -1.85616 0 -0.69619 -0.2766 -1.36387 -0.7688 -1.85616C13.3639 1.02656 12.6962 0.75 12 0.75c-0.6962 0 -1.3639 0.27656 -1.8562 0.76884 -0.49224 0.49229 -0.7688 1.15997 -0.7688 1.85616Z"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.249 8.25002c-0.4007 -0.47055 -0.8989 -0.84847 -1.46 -1.10762 -0.5612 -0.25916 -1.1719 -0.39338 -1.79 -0.39338 -0.6181 0 -1.2288 0.13422 -1.7899 0.39338 -0.56114 0.25915 -1.05931 0.63707 -1.46008 1.10762"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M1.37402 18.375c0 0.6962 0.27657 1.3639 0.76885 1.8562 0.49228 0.4922 1.15996 0.7688 1.85615 0.7688 0.6962 0 1.36388 -0.2766 1.85616 -0.7688 0.49228 -0.4923 0.76884 -1.16 0.76884 -1.8562 0 -0.6962 -0.27656 -1.3639 -0.76884 -1.8562 -0.49228 -0.4922 -1.15996 -0.7688 -1.85616 -0.7688 -0.69619 0 -1.36387 0.2766 -1.85615 0.7688 -0.49228 0.4923 -0.76885 1.16 -0.76885 1.8562Z"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M7.24799 23.25c-0.40077 -0.4705 -0.89894 -0.8484 -1.46007 -1.1076 -0.56113 -0.2592 -1.17185 -0.3934 -1.78993 -0.3934 -0.61809 0 -1.22881 0.1342 -1.78994 0.3934 -0.56113 0.2592 -1.0593 0.6371 -1.460064 1.1076"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.375 18.375c0 0.6962 0.27656 1.3639 0.7688 1.8562 0.4923 0.4922 1.16 0.7688 1.8562 0.7688 0.6962 0 1.3639 -0.2766 1.8562 -0.7688 0.4922 -0.4923 0.7688 -1.16 0.7688 -1.8562 0 -0.6962 -0.2766 -1.3639 -0.7688 -1.8562 -0.4923 -0.4922 -1.16 -0.7688 -1.8562 -0.7688 -0.6962 0 -1.3639 0.2766 -1.8562 0.7688 -0.49224 0.4923 -0.7688 1.16 -0.7688 1.8562Z"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.249 23.25c-0.4007 -0.4705 -0.8989 -0.8484 -1.46 -1.1076 -0.5612 -0.2592 -1.1719 -0.3934 -1.79 -0.3934 -0.6181 0 -1.2288 0.1342 -1.7899 0.3934 -0.56114 0.2592 -1.05931 0.6371 -1.46008 1.1076"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.376 18.375c0 0.6962 0.2765 1.3639 0.7688 1.8562 0.4923 0.4922 1.16 0.7688 1.8562 0.7688 0.6962 0 1.3638 -0.2766 1.8561 -0.7688 0.4923 -0.4923 0.7689 -1.16 0.7689 -1.8562 0 -0.6962 -0.2766 -1.3639 -0.7689 -1.8562 -0.4923 -0.4922 -1.1599 -0.7688 -1.8561 -0.7688 -0.6962 0 -1.3639 0.2766 -1.8562 0.7688 -0.4923 0.4923 -0.7688 1.16 -0.7688 1.8562Z"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M23.25 23.25c-0.4008 -0.4705 -0.8989 -0.8484 -1.4601 -1.1076 -0.5611 -0.2592 -1.1718 -0.3934 -1.7899 -0.3934 -0.6181 0 -1.2288 0.1342 -1.7899 0.3934 -0.5612 0.2592 -1.0593 0.6371 -1.4601 1.1076"
+                            stroke-width="1.5"></path>
+                    </svg>
+                </div>
+
+                <div class="card-operaciones">
+                    <div style="background-image: url('imagenes/atencion_telefonica.jpg')">
+                        <h2>Servicios y Atención al Cliente</h2>
+                    </div>
+                    <div>
+                        <h3>Servicios prestados:</h3>
+                        <p>Desarrollo de e-learning, software a medida y mantenimiento
+                            informático. La frecuencia incluye contratos mensuales, soporte continuo y atención a
+                            emergencias.</p>
+                        <h3>Relación con el cliente:</h3>
+                        <p>Contacto mediante teléfono, correo electrónico, WhatsApp Business y formularios web.</p>
+                        <h3>Presupuestos personalizados:</h3>
+                        <p>Detalles para proyectos y servicios adaptados a las necesidades de cada cliente.</p>
+                        <h3>Modalidad de prestación:</h3>
+                        <p>Servicios presenciales mediante desplazamiento de técnicos para mantenimiento, y virtual para
+                            desarrollo y soporte en línea.</p>
+                    </div>
+                </div>
+
+                <div class="card-operaciones">
+                    <div style="background-image: url('imagenes/calidad.jpg')">
+                        <h2>Gestión Interna y Calidad</h2>
+                    </div>
+                    <div>
+                        <h3>Gestión de información</h3>
+                        <p>Uso de CRM para la centralización de datos de clientes y herramientas de gestión de proyectos
+                            como Jira, Asana o Trello.</p>
+                        <h3>Sistemas de calidad y certificaciones:</h3>
+                        <p>Certificaciones futuras como ISO 9001 e ISO/IEC 27001. Actualmente empleamos encuestas de
+                            satisfacción y
+                            procedimientos documentados.</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        id="Award-Ribbon-Star-1--Streamline-Ultimate" height="24" width="24">
+                        <desc>Award Ribbon Star 1 Streamline Icon: https://streamlinehq.com</desc>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.807 13.042 0.75 18l3.75 0.75 1.5 4.5 3.944 -6.258" stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M19.193 13.042 23.25 18l-3.75 0.75 -1.5 4.5 -3.944 -6.258" stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 9c0 2.188 0.86919 4.2865 2.41637 5.8336C7.71354 16.3808 9.81196 17.25 12 17.25c2.188 0 4.2865 -0.8692 5.8336 -2.4164C19.3808 13.2865 20.25 11.188 20.25 9c0 -2.18804 -0.8692 -4.28646 -2.4164 -5.83363C16.2865 1.61919 14.188 0.75 12 0.75c-2.18804 0 -4.28646 0.86919 -5.83363 2.41637C4.61919 4.71354 3.75 6.81196 3.75 9Z"
+                            stroke-width="1.5"></path>
+                        <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                            d="m12.531 4.29186 1.248 2.45801h2.127c0.1171 -0.00286 0.2323 0.02967 0.3306 0.09335s0.1751 0.15553 0.2204 0.26356c0.0453 0.10803 0.0569 0.2272 0.0333 0.34193 -0.0235 0.11473 -0.0811 0.21969 -0.1653 0.30116l-1.953 1.918 1.082 2.48503c0.0477 0.1138 0.0585 0.2397 0.0307 0.3599 -0.0277 0.1203 -0.0925 0.2288 -0.1852 0.3102 -0.0927 0.0815 -0.2087 0.1317 -0.3315 0.1437 -0.1228 0.012 -0.2463 -0.0149 -0.353 -0.0768L12 11.4189l-2.61499 1.471c-0.10671 0.0619 -0.23019 0.0888 -0.35301 0.0768 -0.12282 -0.012 -0.23876 -0.0622 -0.33147 -0.1437 -0.09272 -0.0814 -0.15751 -0.1899 -0.18523 -0.3102 -0.02772 -0.1202 -0.01698 -0.2461 0.03071 -0.3599l1.082 -2.48503 -1.953 -1.92201c-0.08415 -0.08146 -0.14177 -0.18642 -0.16532 -0.30115 -0.02355 -0.11474 -0.01193 -0.23391 0.03333 -0.34193 0.04526 -0.10803 0.12207 -0.19988 0.22037 -0.26356 0.0983 -0.06368 0.21353 -0.09621 0.33062 -0.09336H10.221l1.249 -2.454c0.051 -0.09649 0.1273 -0.17726 0.2208 -0.23359 0.0935 -0.05633 0.2006 -0.0861 0.3097 -0.0861 0.1092 0 0.2162 0.02977 0.3097 0.0861 0.0935 0.05633 0.1698 0.1371 0.2208 0.23359Z"
+                            stroke-width="1.5"></path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo">
+            <h1 class="borde-texto">Equipo Humano</h1>
+
+            <h2>Funciones - Objetivos - Tareas</h2>
+            <div id="funciones" class="roles">
+                <div class="role carta-30vw">
+                    <!-- <h3>Desarrollador de Plataforma, Contenidos y Software</h3> -->
+                    <h3>Función</h3>
+                    <p>Desarrollar y mantener tanto el contenido educativo como la infraestructura tecnológica de la
+                        plataforma de e-learning.</p>
+                    <h3>Objetivos</h3>
+                    <p>Crear experiencias de aprendizaje interactivas y asegurar el buen funcionamiento técnico de la
+                        plataforma.</p>
+                    <h3>Tareas</h3>
+                    <ul>
+                        <li>Diseñar y crear contenidos educativos interactivos (videos, simulaciones,
+                            cuestionarios).</li>
+                        <li>Desarrollar y mantener la plataforma e-learning, asegurando su rendimiento y
+                            escalabilidad.</li>
+                        <li>Colaborar con el equipo pedagógico para asegurar la calidad del contenido y su alineación
+                            con los objetivos educativos.</li>
+                        <li>Desarrollar nuevas funcionalidades de la plataforma y optimizar las existentes.</li>
+                        <li>Implementar mejoras en la interfaz de usuario (UX/UI) para mejorar la experiencia
+                            del estudiante.</li>
+                    </ul>
+                </div>
+
+                <div class="role  carta-30vw">
+                    <!-- <h3>Coordinación y Gestión de Proyectos Educativos</h3> -->
+                    <h3>Función</h3>
+                    <p>Gestionar el desarrollo de los programas educativos y coordinar los equipos de trabajo.</p>
+                    <h3>Objetivos</h3>
+                    <p>Garantizar que los proyectos se entreguen a tiempo, dentro del presupuesto y con alta calidad.
+                    </p>
+                    <h3>Tareas</h3>
+                    <ul>
+                        <li>Coordinar la creación y entrega de cursos y programas educativos.</li>
+                        <li>Establecer cronogramas, plazos y asignación de recursos para los proyectos.</li>
+                        <li>Supervisar el progreso del desarrollo de los cursos y el contenido, garantizando que se
+                            cumplan
+                            los objetivos educativos.</li>
+                        <li>Gestionar la capacitación interna del equipo y la formación de los usuarios finales.</li>
+                        <li>Realizar la gestión de proyectos asegurando que los recursos se utilicen eficientemente y
+                            dentro de los plazos establecidos.</li>
+                    </ul>
+                </div>
+
+                <div class="role  carta-30vw">
+                    <!-- <h3>Marketing, Soporte y Atención al Usuario</h3> -->
+                    <h3>Función</h3>
+                    <p>Promover la plataforma, proporcionar soporte técnico a los usuarios y gestionar la interacción
+                        con los estudiantes.</p>
+                    <h3>Objetivos</h3>
+                    <p>Mejorar la visibilidad de la empresa, atraer estudiantes y garantizar una experiencia de usuario
+                        fluida.</p>
+                    <h3>Tareas</h3>
+                    <ul>
+                        <li>Gestionar campañas de marketing digital y promoción de los cursos (SEO, SEM, redes
+                            sociales).</li>
+                        <li>Proporcionar soporte técnico a los usuarios, resolviendo problemas técnicos relacionados con
+                            el uso de la plataforma.</li>
+                        <li>Administrar la presencia de la empresa en medios digitales y canales de comunicación.</li>
+                        <li>Crear contenido de ayuda y gestionar la base de conocimiento para asistir a los usuarios.
+                        </li>
+                        <li>Resolver problemas técnicos relacionados con el acceso y el uso de la plataforma e-learning.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="role  carta-30vw">
+                    <!-- <h3>Técnico Informático</h3> -->
+                    <h3>Función</h3>
+                    <p>Gestionar la infraestructura tecnológica, la seguridad y el soporte técnico de la plataforma
+                        e-learning.</p>
+                    <h3>Objetivos</h3>
+                    <p>Asegurar que la infraestructura de la plataforma esté disponible, segura y funcione correctamente
+                        en todo momento.</p>
+                    <h3>Tareas</h3>
+                    <ul>
+                        <li>Administrar los servidores, bases de datos y la infraestructura de la plataforma e-learning.
+                        </li>
+                        <li>Asegurar la seguridad de los datos, realizar copias de seguridad y garantizar la protección
+                            contra ciberamenazas.</li>
+                        <li>Monitorear el rendimiento de la plataforma, solucionando problemas técnicos en tiempo real.
+                        </li>
+                        <li>Administrar accesos y permisos de los usuarios en la plataforma.</li>
+                        <li>Coordinar con el equipo de desarrollo para implementar mejoras tecnológicas en la
+                            infraestructura.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <h2>Perfil profesional de cada puesto</h2>
+            <div id="perfiles" class="roles">
+                <div class="role carta-60vw">
+                    <h3>Desarrollador de plataformas, contenidos y software</h3>
+                    <p><strong>Resumen Profesional:</strong> Desarrollador con experiencia en la creación y
+                        mantenimiento de plataformas de e-learning, así como en el diseño de contenidos educativos
+                        interactivos. Capaz de combinar habilidades de programación con un enfoque pedagógico para crear
+                        experiencias de aprendizaje efectivas. Experto en el desarrollo de software, asegurando el
+                        rendimiento y la escalabilidad de la plataforma, y en la implementación de mejoras en la
+                        interfaz de usuario (UX/UI).</p>
+                    <h3>Habilidades Técnicas:</h3>
+                    <ul>
+                        <li>Desarrollo de plataformas e-learning (backend y frontend).</li>
+                        <li>Programación en lenguajes como Python, JavaScript, HTML/CSS, PHP.</li>
+                        <li>Diseño de contenido interactivo (videos, simulaciones, cuestionarios).</li>
+                        <li>Gestión de bases de datos y APIs.</li>
+                        <li>Optimización de la experiencia de usuario (UX/UI).</li>
+                    </ul>
+                    <h3>Habilidades Blandas:</h3>
+                    <ul>
+                        <li>Pensamiento analítico y resolución de problemas.</li>
+                        <li>Trabajo en equipo y colaboración multidisciplinaria.</li>
+                        <li>Gestión del tiempo y organización de tareas.</li>
+                        <li>Comunicación efectiva con equipos pedagógicos y técnicos.</li>
+                        <li>Creatividad y proactividad en la mejora de la experiencia de usuario.</li>
+                    </ul>
+                    <h3>Formación:</h3>
+                    <ul>
+                        <li>Técnico Superior en Desarrollo de Aplicaciones Web, Desarrollo de Software o afines.</li>
+                        <li>Cursos de especialización en diseño UX/UI, desarrollo de plataformas e-learning y gestión de
+                            contenidos interactivos.</li>
+                    </ul>
+                </div>
+
+                <div class="role carta-60vw">
+                    <h3>Coordinador de Proyectos Educativos</h3>
+                    <p><strong>Resumen Profesional:</strong> Coordinador de proyectos con sólida experiencia en la
+                        gestión de programas educativos y la supervisión de equipos multidisciplinarios. Habilidad para
+                        gestionar plazos, recursos y presupuestos, asegurando que los proyectos se entreguen a tiempo y
+                        con la calidad esperada. Fuerte enfoque en la planificación, ejecución y evaluación de proyectos
+                        educativos en entornos digitales.</p>
+                    <h3>Habilidades Técnicas:</h3>
+                    <ul>
+                        <li>Gestión de proyectos educativos y tecnológicos (herramientas como MS Project, Trello,
+                            Asana).
+                        </li>
+                        <li>Planificación y programación de tareas y cronogramas.</li>
+                        <li>Evaluación y seguimiento de proyectos.</li>
+                        <li>Gestión de presupuestos y recursos.</li>
+                        <li>Conocimiento básico de tecnologías e-learning y plataformas digitales.</li>
+                    </ul>
+                    <h3>Habilidades Blandas:</h3>
+                    <ul>
+                        <li>Liderazgo y capacidad para gestionar equipos.</li>
+                        <li>Toma de decisiones y resolución de conflictos.</li>
+                        <li>Capacidad de negociación y gestión de expectativas.</li>
+                        <li>Comunicación clara y eficaz con diferentes grupos de interés.</li>
+                        <li>Empatía y orientación al cliente interno y externo.</li>
+                    </ul>
+                    <h3>Formación:</h3>
+                    <ul>
+                        <li>Técnico Superior en Gestión de Proyectos, Administración de Empresas o Educación.</li>
+                        <li>Certificación en Gestión de Proyectos (PMP, Scrum Master).</li>
+                        <li>Cursos sobre e-learning y gestión educativa.</li>
+                    </ul>
+                </div>
+
+                <div class="role carta-60vw">
+                    <h3>Especialista en Marketing, Soporte y Atención al Usuario</h3>
+                    <p><strong>Resumen Profesional:</strong> Profesional de marketing digital con experiencia en la
+                        promoción de plataformas educativas y el soporte al usuario. Experto en crear estrategias de
+                        marketing que aumenten la visibilidad de la empresa y atraer estudiantes, mientras ofrece un
+                        servicio de soporte técnico eficiente. Capaz de gestionar la relación con los usuarios, crear
+                        contenido educativo y solucionar problemas técnicos relacionados con la plataforma.</p>
+
+                    <h3>Habilidades Técnicas:</h3>
+                    <ul>
+                        <li>Marketing digital (SEO, SEM, campañas en redes sociales, Google Ads).</li>
+                        <li>Herramientas de analítica web (Google Analytics, Hotjar).</li>
+                        <li>Soporte técnico y uso de sistemas de gestión de incidencias (Zendesk, Freshdesk).</li>
+                        <li>Creación y gestión de contenido educativo y tutoriales.</li>
+                        <li>Administración de redes sociales y gestión de marca.</li>
+                    </ul>
+                    <h3>Habilidades Blandas:</h3>
+                    <ul>
+                        <li>Orientación al cliente y habilidades de servicio.</li>
+                        <li>Comunicación efectiva, tanto escrita como verbal.</li>
+                        <li>Gestión del estrés y resolución de problemas.</li>
+                        <li>Capacidad para trabajar bajo presión y con plazos ajustados.</li>
+                        <li>Creatividad para generar campañas atractivas y efectivas.</li>
+                    </ul>
+                    <h3>Formación:</h3>
+                    <ul>
+                        <li>Técnico Superior en Marketing Digital, Publicidad o afines.</li>
+                        <li>Certificaciones en Marketing Digital (Google Ads, Facebook Blueprint, SEO/SEM).</li>
+                        <li>Formación en atención al cliente y gestión de soporte técnico.</li>
+                    </ul>
+
+                </div>
+
+                <div class="role carta-60vw">
+                    <h3>Técnico de Sistemas Informáticos</h3>
+                    <p><strong>Resumen Profesional:</strong> Técnico informático con experiencia en la administración de
+                        infraestructura tecnológica para plataformas e-learning. Conocedor de los sistemas de
+                        servidores, bases de datos y seguridad informática, enfocado en mantener la plataforma
+                        funcionando de manera óptima. Experto en garantizar la disponibilidad de la infraestructura y en
+                        solucionar problemas técnicos para asegurar una experiencia de usuario fluida.</p>
+
+                    <h3><strong>Habilidades Técnicas:</strong></h3>
+                    <ul>
+                        <li>Administración de servidores (Linux, Windows Server).</li>
+                        <li>Gestión de bases de datos (MySQL, PostgreSQL).</li>
+                        <li>Implementación de medidas de seguridad informática (firewalls, cifrado).</li>
+                        <li>Monitoreo y gestión de rendimiento de plataformas y redes.</li>
+                        <li>Soporte técnico y resolución de incidencias de sistemas.</li>
+                    </ul>
+                    <h3>Habilidades Blandas:</h3>
+                    <ul>
+                        <li>Capacidad de diagnóstico y resolución de problemas técnicos.</li>
+                        <li>Trabajo en equipo con otros departamentos (desarrollo, soporte).</li>
+                        <li>Atención al detalle y prevención de problemas.</li>
+                        <li>Comunicación efectiva con usuarios no técnicos.</li>
+                        <li>Gestión de tareas de forma autónoma y organizada.</li>
+                    </ul>
+                    <h3>Formación:</h3>
+                    <ul>
+
+                        <li>Técnico Superior en Sistemas Informáticos, Administración de Redes o afines.</li>
+                        <li>Certificación en administración de sistemas (Linux, Microsoft Certified Systems Engineer).
+                        </li>
+                        <li>Cursos especializados en seguridad informática, administración de servidores y bases de
+                            datos.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <h2>Número de Personas Empleadas</h2>
+            <div id="numero_empleados" class="role carta-60vw">
+                <p>Actualmente nuestro personal es muy reducido, constando básicamente con un trabajador que hace todas
+                    funciones. Al ir creciendo se van especializando los trabajos y compartiendo algunas funciones
+                    o tareas. Para una buena planificación he considerado que la empresa ya tiene 5 trabajadores de
+                    entre los diferentes perfiles que hemos propuesto.</p>
+
+            </div>
+
+            <h2>Organigrama</h2>
+            <div id="organigrama">
+                <img src="imagenes/organigrama.png" alt="Organigrama">
+            </div>
+
+            <h2>Tipo de Contrato, Condiciones Laborales, Posibles Bonificaciones y Salario</h2>
+            <div id="laboral" class="role carta-60vw">
+
+
+                <h3>Tipo de contrato</h3>
+                <p>Contratos indefinidos a tiempo completo o parcial, con periodo de prueba de 3 meses.
+                    Posibilidad de contratar personal freelance por proyectos específicos, especialmente en el
+                    área
+                    de
+                    e-learning.</p>
+                <h3>Condiciones laborales </h3>
+                <p>Jornada laboral de 36 horas semanales, con posibilidad de teletrabajo. Beneficios: seguro de
+                    salud,
+                    formación continua, acceso a herramientas de
+                    software y hardware de calidad. Posibles bonificaciones del Estado para fomentar la
+                    contratación
+                    de
+                    jóvenes, la digitalización o la formación continua.</p>
+
+                <table class="tabla-marketing">
+                    <thead>
+                        <tr>
+                            <th>Puesto</th>
+                            <th>Salario <span>€/año</th></span>
+                            <th>Seguridad<br>Social <span>€/año</span></th>
+                            <th>Herramientas <span>€/año</span></th>
+                            <th>Formación <span>€/año</span></th>
+                            <th>TOTAL <span>€/año</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Desarrollador de software</td>
+                            <td>30.000</td>
+                            <td>9.300</td>
+                            <td>1.500</td>
+                            <td>2.000</td>
+                            <td>42.800</td>
+                        </tr>
+                        <tr>
+                            <td>Desarrollador de e-learning</td>
+                            <td>28.000</td>
+                            <td>8.680</td>
+                            <td>1.500</td>
+                            <td>1.500</td>
+                            <td>39.680</td>
+                        </tr>
+                        <tr>
+                            <td>Soporte al cliente y ventas</td>
+                            <td>25.000</td>
+                            <td>7.750</td>
+                            <td>1.000</td>
+                            <td>1.000</td>
+                            <td>34.750</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico de sistemas</td>
+                            <td>22.000</td>
+                            <td>6.820</td>
+                            <td>1.000</td>
+                            <td>500</td>
+                            <td>30.320</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico administrativo</td>
+                            <td>22.000</td>
+                            <td>6.820</td>
+                            <td>1.000</td>
+                            <td>500</td>
+                            <td>30.320</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div id="final_equipo">
+
+                <div id="seleccion" class="role carta-30vw">
+                    <h2>Proceso de Selección</h2>
+                    <h3>Análisis de necesidades</h3>
+                    <p> Identificación de puestos vacantes y perfil requerido.</p>
+                    <h3>Reclutamiento</h3>
+                    <p> Publicación de ofertas en portales de empleo y redes sociales, búsqueda activa de
+                        candidatos mediante LinkedIn.</p>
+                    <h3>Selección</h3>
+                    <p> Entrevistas estructuradas, pruebas técnicas (en caso de los desarrolladores) y
+                        psicológicas (para evaluar habilidades interpersonales).</p>
+                    <p>Contratación: Firma de contrato y explicación de condiciones laborales.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+                    </svg>
+
+                </div>
+
+
+
+                <div id="gestion" class="role carta-30vw">
+                    <h2>Comunicación - Motivación - Formación - Liderazgo</h2>
+                    <h3>Canales de comunicación</h3>
+                    <p> Reuniones semanales de equipo (presenciales o virtuales). Uso de
+                        herramientas de comunicación como Slack, Microsoft Teams y correo electrónico para la
+                        gestión
+                        diaria.</p>
+                    <h3>Motivación</h3>
+                    <p> Incentivos por objetivos alcanzados, bonos por rendimiento, reconocimientos públicos.
+                        Ambiente de trabajo colaborativo y flexible.</p>
+                    <h3>Formación</h3>
+                    <p>Programas de formación continua en nuevas tecnologías, desarrollo personal y liderazgo.
+                        Participación en cursos online o presenciales, ferias y congresos.</p>
+                    <h3>Solución de conflictos</h3>
+                    <p>Sistema de mediación interna para resolver disputas de manera rápida y
+                        efectiva. Promoción de un ambiente de trabajo abierto y respetuoso.</p>
+                    <h3>Liderazgo</h3>
+                    <p> Liderazgo colaborativo, donde todos los miembros del equipo tengan voz y voto en las
+                        decisiones importantes. Establecimiento de metas claras y objetivos compartidos para
+                        fomentar la
+                        motivación colectiva.</p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="prevencion">
+            <h2 class="borde-texto">Prevención de riesgos laborales</h2>
+            <div>
+                <div>
+                    <h2>Modalidad de organización de la prevención</h2>
+                    <p>Designación de un responsable de prevención dentro de la plantilla (prevención interna).</p>
+                    <ul>
+                        <li><span>Costos:</span> El servicio de prevención propio o ajeno puede implicar costos elevados
+                            que
+                            no son necesarios en una empresa en la que el personal es reducido. Designar a un
+                            responsable de
+                            prevención interno permite optimizar los recursos disponibles.</li>
+                        <li><span>Facilidad de implementación:</span> Esta modalidad es relativamente fácil de
+                            implementar,
+                            ya que solo se necesita designar a un empleado que asuma la responsabilidad de la gestión
+                            preventiva dentro de la empresa.</li>
+                        <li><span>Adaptación y conocimiento de la empresa:</span> Un miembro del equipo interno tiene un
+                            mejor conocimiento de los procesos y operaciones específicas de la empresa, lo que le
+                            permite
+                            adaptar las medidas preventivas a las necesidades reales del lugar de trabajo.</li>
+                        <li><span>Cumplimiento de la legislación:</span> A pesar de no contar con un servicio externo,
+                            un
+                            responsable interno garantizará que se cumpla la normativa de seguridad y salud laboral,
+                            pudiendo coordinar la formación y la identificación de riesgos dentro de la empresa.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Riesgo laboral - Medidas preventivas</h2>
+                    <p>Fatiga visual y trastornos musculoesqueléticos debido al uso prolongado de pantallas de
+                        ordenador.</p>
+                    <ul>
+                        <li><span>Ergonomía en el puesto de trabajo:</span> Asegurarse de que las estaciones de trabajo
+                            estén
+                            diseñadas de manera ergonómica, con sillas ajustables, escritorios a la altura adecuada y
+                            pantallas de ordenador situadas a una distancia apropiada para evitar esfuerzos visuales
+                            innecesarios.</li>
+                        <li><span>Descansos regulares:</span> Implementar la regla 20-20-20, que consiste en que cada 20
+                            minutos de trabajo frente a la pantalla se haga una pausa de 20 segundos mirando un objeto a
+                            unos 6 metros de distancia. Esto ayuda a reducir la fatiga visual.</li>
+                        <li><span>Pausas activas:</span> Fomentar pausas activas para estiramientos y movimientos que
+                            permitan a los empleados relajarse y evitar la tensión muscular derivada de posturas
+                            incorrectas
+                            o estáticas.</li>
+                        <li><span>Iluminación adecuada:</span> Ajustar la iluminación en las áreas de trabajo para
+                            reducir
+                            los reflejos en las pantallas, lo que contribuirá a disminuir la fatiga visual.</li>
+                        <li><span>Formación y concienciación:</span> Ofrecer formación sobre cómo organizar el espacio
+                            de
+                            trabajo y la importancia de mantener posturas saludables durante el uso del ordenador.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="evaluacion">
+            <h2 class="borde-texto">Nos evaluamos</h2>
+            <div class="card-evaluacion">
+                <h3>Autoevaluación</h3>
+                <div>
+                    <p><strong>Estructuración</strong></p>
+                    <p>He modificado el menú de navegación y añadí las secciones correspondientes.</p>
+                    <p><strong>Contenidos</strong></p>
+                    <p>He desarrollado más las partes que pensé más interesantes.</p>
+                    <p><strong>Diseño</strong></p>
+                    <p>He intentado mejorar el diseño e introducir más grafismos.</p>
+                    <p><strong>Puntuación</strong></p>
+                    <p>De 8 a 9</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Formación e Informática MurgIndalo. Ningún derecho reservado :D .</p>
+    </footer>
+
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+
+
+        }
+    </script>
+</body>
+
+</html>
